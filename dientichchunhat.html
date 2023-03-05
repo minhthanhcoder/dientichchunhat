@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Viết một ứng dụng để tính diện tích của hình chữ nhật dựa vào chiều rộng và chiều
+cao được nhập vào.
+Để hoàn thành bài thực hành, học viên cần:
+● Đưa mã nguồn lên GitHub
+● Dán link của repository lên phần nộp bài trên LMS
+● Hướng dẫn
+Bước 1: Tạo dự án mới và một file HTML
+Bước 2: Tạo file javascript mới và nhúng vào file HTML ở bước 1
+Bước 3: Khai báo các biến để nhận giá trị chiều cao và chiều rộng từ người dùng.
+let inputWidth;
+let inputHeight;
+Bước 4: Sử dụng hàm prompt để lấy dữ liệu nhập vào từ người dùng
+inputWidth = prompt("Enter the width");
+inputHeight = prompt("Enter the height");
+Bước 5: Sử dụng hàm parseInt() để chuyển kiểu dữ liệu từ chuỗi sang số nguyên.
+let width = parseInt(inputWidth);
+let height = parseInt(inputHeight);
+Bước 5: Tính diện tích của hình chữ nhật và hiển thị ra màn hình
+let area = width * height;
+document.write("The area is: " + area);
+Kết quả:
+Enter width:
+10
+Enter height:
+20
+The area is: 200.0 -->
+<script>
+    let inputWidth = parseInt(prompt("Enter the width"));
+    let inputHeight = parseInt(prompt("Enter the height"));
+    let area = inputWidth * inputHeight;
+document.write("The area is: " + area);
+</script>
+</body>
+</html>
